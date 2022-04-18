@@ -1,0 +1,150 @@
+/* Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif&family=Poppins:wght@500&display=swap');
+
+
+/* common style */
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background: #F3F1FF;
+}
+/* main direction */
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Container style */
+.container {
+    background-color: #ffffff;
+    width: 870px;
+    height: 679px;
+    border-radius: 7px;
+    padding: 30px;
+    margin-top: 21px;
+
+  
+   
+}
+
+/* Top players */
+
+
+.title {
+    color: #562EFF;
+    padding: 3px;
+    font-size: 24px;
+    margin-bottom:11px ;
+}
+
+.players {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-row-gap: 10px;
+}
+
+.player {
+    display: flex;
+    align-items: center;
+    margin-top:40px ;
+}
+
+
+.player img {
+    width: 56px;
+    height: 56px;
+
+}
+.player h3{
+    margin-left:16px ;
+}
+hr{
+    border: 1px solid gray;
+    margin-top: 39px;
+    margin-bottom: 21px;
+}
+/*-------------------top blogs Style -------------------- */
+
+.blogs{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+
+    grid-row-gap: 26px;
+    
+}
+.blog{
+    display: flex;
+}
+.blog-info{
+    margin-left: 16px;
+    margin-top: 12px;
+}
+.blog-img{
+
+    width: 177px;
+    height: 117px;
+    margin-top: 20px;
+}
+
+.author{
+    color: gray;
+}
+
+article span a{
+    text-decoration: none;
+}
+
+
+/* Latest courses */
+
+.courses{
+    display:grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-column-gap: 24px;
+}
+.course{
+    width: 253px;
+    height: 276px;
+    background-color: aliceblue;
+    border-radius: 18px;
+    box-shadow: 3px 3px 5px gray;
+    
+}
+
+.course img{
+    width: 224px;
+    height: 104px;
+    margin-left: 14px;
+    margin-top: 8px;
+}
+.course-title{
+    margin-left: 14px;
+}
+.course-trainer{
+    color:#ED6B4F ;
+    margin-left: 14px;
+}
+.course-detail{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 14px;
+    
+}
+
+.ratings span{
+    color: #A2A2A2;
+}
+.ratings .filled{
+    color:#FFC014 ;
+}
+.ratings .empty{
+    color:#AEAEAE ;
+}
+.clock{
+    background-color: #FFE4E8;
+    width: 94.83px;
+    height: 29.38px;
+    border-radius:14.69px ;
+}
